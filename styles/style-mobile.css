@@ -23,12 +23,11 @@
 }
 
 .nav-bar {
+    overflow-y: auto;
     display: block;
     width: 100%;
     height: 0px;
     bottom: 0px;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    overflow-y: hidden;
     transition: 0.5s;
   }
 
@@ -38,7 +37,7 @@
 }
 
 .nav-bar a {
-    padding: .5em;
+    padding: .75em;
     text-decoration: none;
     display: block;
     transition: 0.3s;
@@ -54,4 +53,8 @@
 
 #arrow {
     font-stretch: expanded;
+}
+
+.nav-bar::-webkit-scrollbar {
+    display: none;
 }
