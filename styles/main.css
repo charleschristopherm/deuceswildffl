@@ -1,0 +1,54 @@
+body {
+    background-color: #00b0f0;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+}
+
+.nav-bar > img.logo {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 30px 0px 30px 0px;
+}
+
+.nav-bar {
+    background-color: #215967;
+    z-index: 1;
+    display: inline-block;
+}
+
+.nav-bar a {
+    font-size: 25px;
+    font-family: 'collegiate', sans-serif;
+    font-weight: 100;
+    color: darkorange;
+}
+
+.nav-bar a:hover {
+    color: #f1f1f1;
+}
+
+.nav-list-item:hover {
+    background-color: #31869b;
+}
+
+.nav-list .active {
+    background-color: #31869b;
+}
+
+button:focus {
+    outline: none;
+}
+
+.nav-button {
+    cursor: pointer;
+    background-color: #215967;
+    color: white;
+    border: none;
+}
+  
+.nav-button:hover {
+    background-color: #31869b;
+}

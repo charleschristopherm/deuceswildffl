@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Deuces Wild Members Only Fantasy Football League</title>
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/fonts.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="./styles/style-desktop.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="./styles/style-mobile.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+
+    <header>
+        <div class="nav-container">
+        <button class="nav-button nav-collapse" onclick="toggle_nav()">
+            <div id="arrow">&#187;</div>
+        </button>
+
+
+            <div class="nav-bar nav-collapse">
+                <img class="logo" src="https://raw.githubusercontent.com/charleschristopherm/deuceswildffl/95f92e1ba36d35f35fe5edd26d15f06e2b747950/images/deucesWildLogoFINAL.svg" alt="Deuces Wild FFL Logo">
+                <ul class="nav-list" style="list-style-type: none;">
+                    <li><a class="active" href="./main.html">Home</a></li>
+                    <li><a class="nav-list-item" href="./calculator.html">Calculator</a></li>
+                    <li><a class="nav-list-item"href="./power_rankings.html">Power Rankings</a></li>
+                    <li class="nav-list-item"><a href="./side_bets.html">Side Bets</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <p>THIS IS THE STANDINGS PAGE</p>
+    </main>
+
+    <script>
+        function toggle_nav() {
+            $('.nav-collapse').toggleClass('hidden');
+            $('#arrow').html($('#arrow').html() == '«' ? '»' : '«');
+        }
+    </script>
+</html>
