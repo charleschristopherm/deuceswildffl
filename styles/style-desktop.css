@@ -26,15 +26,15 @@
     padding: 30px 0px 0px 0px;
     transition: 0.5s;
     order: 1;
-  }
+}
 
-  .nav-bar.hidden {
+.nav-bar.hidden {
     width: 30vw;
     max-width: 500px;
 }
   
 .nav-bar a {
-    padding: 8px 8px 8px 32px;
+    padding: 30px 50px;
     text-decoration: none;
     display: block;
     transition: 0.3s;
